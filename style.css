@@ -1,0 +1,50 @@
+::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    position: 0;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+body{
+    font-family: 'Outfit', 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background: #d5e1ef;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1f314f;
+    margin-bottom: 16px;
+}
+
+.para{
+    margin-bottom: 16px;
+    color: #68778d;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    height: 100dvh;
+}
+
+.card {
+    text-align: center;
+    max-width: 300px;
+    margin-inline: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.qr-image{
+    margin-bottom: 16px;
+}
